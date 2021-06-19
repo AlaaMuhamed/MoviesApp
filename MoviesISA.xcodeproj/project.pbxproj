@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		488BFF8A267C141A001374C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488BFF89267C141A001374C6 /* Assets.xcassets */; };
 		6F4C19D121F710DC006C6CE5 /* MovieCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C19D021F710DC006C6CE5 /* MovieCardViewModel.swift */; };
 		6F4C19D321F73237006C6CE5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C19D221F73237006C6CE5 /* MovieDetailsViewController.swift */; };
 		6F4C19D521F7359B006C6CE5 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4C19D421F7359B006C6CE5 /* MovieDetailsViewModel.swift */; };
@@ -14,7 +15,6 @@
 		6FC0897921F6087900E46C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0897821F6087900E46C98 /* AppDelegate.swift */; };
 		6FC0897B21F6087900E46C98 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0897A21F6087900E46C98 /* HomeViewController.swift */; };
 		6FC0897E21F6087900E46C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0897C21F6087900E46C98 /* Main.storyboard */; };
-		6FC0898021F6087B00E46C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0897F21F6087B00E46C98 /* Assets.xcassets */; };
 		6FC0898321F6087B00E46C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC0898121F6087B00E46C98 /* LaunchScreen.storyboard */; };
 		6FC0898F21F60A0D00E46C98 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0898E21F60A0D00E46C98 /* NetworkManager.swift */; };
 		6FC0899121F60A1A00E46C98 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0899021F60A1A00E46C98 /* DatabaseManager.swift */; };
@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		456AE17A42D8869D00A5DE59 /* Pods-MoviesISA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoviesISA.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoviesISA/Pods-MoviesISA.release.xcconfig"; sourceTree = "<group>"; };
+		488BFF89267C141A001374C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B9B36D3358486F9DA53613E /* Pods_MoviesISA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoviesISA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4C19D021F710DC006C6CE5 /* MovieCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardViewModel.swift; sourceTree = "<group>"; };
 		6F4C19D221F73237006C6CE5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		6FC0897821F6087900E46C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FC0897A21F6087900E46C98 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6FC0897D21F6087900E46C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6FC0897F21F6087B00E46C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FC0898221F6087B00E46C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC0898421F6087B00E46C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC0898E21F60A0D00E46C98 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -137,10 +137,10 @@
 				6FC0898B21F6094F00E46C98 /* View */,
 				6FC0898A21F6094700E46C98 /* Model */,
 				6FC0897821F6087900E46C98 /* AppDelegate.swift */,
-				6FC0897F21F6087B00E46C98 /* Assets.xcassets */,
 				6FC0899921F61D7900E46C98 /* Girl.png */,
 				6FC0898121F6087B00E46C98 /* LaunchScreen.storyboard */,
 				6FC0898421F6087B00E46C98 /* Info.plist */,
+				488BFF89267C141A001374C6 /* Assets.xcassets */,
 			);
 			path = MoviesISA;
 			sourceTree = "<group>";
@@ -340,9 +340,9 @@
 			files = (
 				6FC0898321F6087B00E46C98 /* LaunchScreen.storyboard in Resources */,
 				6FFD8CA621FF160D003E81A3 /* CategoryCollectionViewCell.xib in Resources */,
-				6FC0898021F6087B00E46C98 /* Assets.xcassets in Resources */,
 				6FFD8CA021FF0C62003E81A3 /* AllMoviesTableViewCell.xib in Resources */,
 				6FC0899A21F61D7900E46C98 /* Girl.png in Resources */,
+				488BFF8A267C141A001374C6 /* Assets.xcassets in Resources */,
 				6FC0897E21F6087900E46C98 /* Main.storyboard in Resources */,
 				6FC0899821F6164B00E46C98 /* MovieCollectionViewCell.xib in Resources */,
 			);
@@ -356,27 +356,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MoviesISA/Pods-MoviesISA-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoviesISA/Pods-MoviesISA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoviesISA/Pods-MoviesISA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoviesISA/Pods-MoviesISA-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoviesISA/Pods-MoviesISA-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3D5EE8CA5DD1D892DD2490A1 /* [CP] Check Pods Manifest.lock */ = {
