@@ -26,6 +26,7 @@ class MovieDetailsViewController: UIViewController {
     }
 	
 	private func loadViewswithData()  {
+        self.navigationController?.title = movieDetailsViewModel.getMovietitle()
 		movieTitle.text = movieDetailsViewModel.getMovietitle()
 		movieOverView.text = movieDetailsViewModel.getMovieOverView()
 		movieImage.sd_setImage(with: URL(string: movieDetailsViewModel.getMovieImageUrl()))
